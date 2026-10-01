@@ -1,0 +1,19 @@
+{
+  "name": "knowhow",
+  "description": "KnowHow plugins: company memory for agents.",
+  "owner": { "name": "KnowHow Software Inc", "url": "https://knowhow.app" },
+  "plugins": [
+    {
+      "name": "knowhow-memory",
+      "displayName": "KnowHow Memory",
+      "description": "Use company knowledge from KnowHow Memory: recall, capture, objective continuity and contributor discovery.",
+      "source": "./plugins/knowhow-memory"
+    },
+    {
+      "name": "knowhow-memory-admin",
+      "displayName": "KnowHow Memory Admin",
+      "description": "KnowHow Memory directory and visibility-group administration for Organization admins.",
+      "source": "./plugins/knowhow-memory-admin"
+    }
+  ]
+}

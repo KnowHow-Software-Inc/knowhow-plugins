@@ -1,0 +1,7 @@
+{
+  "name": "knowhow-memory-admin",
+  "displayName": "KnowHow Memory Admin",
+  "description": "KnowHow Memory directory and visibility-group administration for Organization admins.",
+  "author": { "name": "KnowHow Software Inc", "url": "https://knowhow.app" },
+  "homepage": "https://memory.knowhow.app/"
+}

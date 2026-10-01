@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "knowhow-memory": {
+      "type": "http",
+      "url": "https://memory.knowhow.app/mcp"
+    }
+  }
+}
