@@ -1,12 +1,15 @@
 {
   "name": "knowhow",
   "description": "KnowHow plugins: company memory for agents.",
-  "owner": { "name": "KnowHow Software Inc", "url": "https://knowhow.app" },
+  "owner": {
+    "name": "KnowHow Software Inc",
+    "url": "https://knowhow.app"
+  },
   "plugins": [
     {
       "name": "knowhow-memory",
       "displayName": "KnowHow Memory",
-      "description": "Use company knowledge from KnowHow Memory: recall, capture, objective continuity and contributor discovery.",
+      "description": "Use company knowledge from KnowHow Memory: recall, capture, objective continuity and contributor discovery. (sync test 2)",
       "source": "./plugins/knowhow-memory"
     },
     {
