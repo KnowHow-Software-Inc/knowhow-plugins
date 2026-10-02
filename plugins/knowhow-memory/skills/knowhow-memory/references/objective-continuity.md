@@ -1,75 +1,46 @@
-# Continue an objective across sessions
+# Objective continuity
 
-Use this flow when work has a longer-running outcome, plans, progress, decisions,
-or supporting artifacts. It applies to one person across sessions as well as a
-team. An objective can span several repositories or work environments.
+Use this for work with a longer-running outcome, for one person or a team,
+across sessions, repositories or other environments.
 
-## Recover enough context to proceed
+## Recover
 
-Start with the user's description of the objective and current task. Search
-ordinary language before requiring a memory ID or tag. Reuse a relevant tag
-discovered in results to explore the objective when useful. Avoid restricting
-retrieval to the current repository when other environments can inform the work.
-Resolve similarly named objectives from their context; ask if the target remains
-ambiguous.
+Search from the user's description of the objective. Use a tag from the results
+to explore further. When two objectives have similar names, use their context;
+ask if the target is still unclear.
 
-Recover the information needed for this task:
+Recover what the next action needs: the outcome and what completion means,
+progress, blockers, open questions, decisions with their reasons, relevant
+plans and records, and the next step. This is a list of needs, not a template.
+Open the current artifact when its detail matters; a link does not show that
+the memory still matches it. Give a short orientation when it helps, then
+continue.
 
-- The intended outcome and what completion means.
-- Established progress, blockers, and consequential open questions.
-- Decisions, rationale, and constraints affecting the next action.
-- Relevant plans, records, and supporting materials.
-- The next useful step and any decision awaiting the user.
+## Save checkpoints
 
-These are information needs, not required fields or a template to fill on every
-read. Open current artifacts when their detail matters. A source link alone does
-not establish that a remembered description still matches the artifact.
-Distinguish proposed, decided, implemented, and demonstrated behavior.
+Save at a decision, milestone, blocker, correction or handoff, when losing the
+knowledge would cause repeated work, a wrong decision or an unnecessary
+question. Name the objective in the title or body, state what changed, and keep
+the reason, qualification or next action.
 
-Give a brief orientation when it helps the user, then proceed within the task's
-authorization. Expose a contradiction or missing decision when it changes what
-can be done; use existing context where sufficient.
+Reuse the objective's tag; if none exists, choose a short descriptive one.
+Tags group memories; they do not show dependency. Write a relationship, such as
+"The pilot depends on approval of the revised budget", in the body with
+evidence.
 
-## Preserve useful checkpoints
+Keep artifacts in their own systems. A memory records conclusions and points to
+material. Keep history apart from current position: "The first trial failed on
+Tuesday" stays true after "The trial is blocked" changes. When new material
+conflicts with a settled position and the direction is unclear, show the
+conflict to the user.
 
-Look for durable changes at a decision, milestone, blocker, correction, or
-handoff. Favor knowledge whose loss would cause repeated investigation, a wrong
-decision, or an unnecessary question. Capture under the user's request or
-existing authorization; otherwise propose the useful checkpoint.
+## Across environments
 
-Make each memory understandable to another session: name the objective in the
-title or body, state what changed, and preserve the relevant reason,
-qualification, or next action. Keep one subject in each memory, and update the
-existing memory for that subject instead of adding another. Cite the supporting
-conversation, document, or other available evidence.
-
-Reuse established objective tags. When none exists and capture is authorized,
-choose a short, descriptive tag grounded in the objective. Tags group memories;
-they do not assert dependencies or hierarchy. Describe a relationship such as
-“The pilot depends on approval of the revised budget” in the body, with
-evidence. Do not invent a typed project schema or require a registry.
-
-Keep substantive artifacts in their existing systems. Memory records useful
-conclusions and points to relevant material; it need not copy every task action
-or replace the plan. Distinguish historical events from current position:
-“The first trial failed on Tuesday” can remain useful after “The trial is
-blocked” needs revision. Use [memory operations](memory-operations.md#change-a-memory)
-for authorized changes; earlier versions stay in the history. When the
-new material conflicts with a settled position and direction is unclear, bring
-the specific conflict to the user.
-
-## Carry meaning between environments
-
-Business planning, application work, and website work may all contribute to one
-objective. A planning decision can affect implementation and messaging; an
-implemented feature can inform messaging; positioning can change the plan.
-
-Capture the decision in language those other contexts can use. For example,
-record whether SOP onboarding is a proposal, an agreed priority, or a capability
-that has been implemented and tried. A website agent can then assess its claims
-against the relevant evidence rather than treating the priority as a delivered
+Planning, application work and website work can serve one objective. Write
+decisions in words that the other environments can use. Example: record
+whether SOP onboarding is a proposal, an agreed priority, or implemented and
+tried, so that a website agent does not present a priority as a delivered
 feature.
 
-Saving shared knowledge makes it available for retrieval. It does not deliver a
-message to another active session, edit another repository, or subscribe anyone
-to updates. Those actions require their own host capability and task scope.
+A saved memory is available to search. It does not send a message to another
+session, edit another repository or notify anyone.

@@ -1,86 +1,53 @@
-# Acquire and apply company guidance
-
-Use this flow when a manager supplies SOPs or other documentation for capture,
-or when interpreting a procedure for a user's situation. The goal is knowledge
-that another agent can find and use without knowing the document exists.
+# Company guidance
 
 ## Intake
 
-### Interpret the supplied material
+Read the supplied material with the host's file or connector tools. Tell the
+manager which parts you cannot read. KnowHow stores your interpretation; it
+does not fetch a document from a URL.
 
-Read the selected material through the host's available file or connector tools.
-If part is inaccessible or unreadable, explain the affected coverage. KnowHow
-stores interpreted memories; it does not fetch and import a document merely
-because its URL appears in a receipt.
+Find the situations, people or roles, actions, sequence, exceptions and
+evidence. Keep requirements, examples, suggestions and open questions apart.
+Ask the manager when an ambiguity changes the meaning or the application.
 
-Identify the situations covered, applicable people or roles, required actions,
-sequence, exceptions, and supporting evidence. Preserve distinctions between
-requirements, examples, suggestions, and unresolved questions. Ask the manager
-focused questions when ambiguity would change the meaning or application. Reuse
-answers and context already supplied.
+Keep the steps, conditions and exceptions of one procedure together, in order.
+Give each memory a title that a search from the situation can find. Example:
+"Manager approval is required" alone loses its trigger; "Customer refund
+approval", with the threshold, approver and exceptions in the body, is found
+from a refund situation. Use the source's real conditions, not this example.
 
-Write one memory for each subject that someone would look up or change on its
-own; see [subjects and overlap](memory-operations.md#subjects-and-overlap).
-Choose boundaries by subject, rather than by paragraph or document. Keep steps,
-conditions, and exceptions of one procedure together in one body, in their
-order. Give each memory a title that names the subject, so that a search from a
-situation can find it.
+Follow the save or review order that the manager asks for. A request to save
+covers clear content as unconfirmed memories. A request to review first leaves
+the proposals unsaved. Record an open question as a `gap` memory. A source
+upload does not authorize retiring other memories or changing their audience.
 
-For example, an isolated “Manager approval is required” loses its trigger. A
-memory titled “Customer refund approval” with the threshold, approver, and
-exceptions in its body can be found from a refund situation. This is an
-illustrative policy only; use the actual source's conditions, thresholds, and
-exceptions. When several memories come from one document, cite it once and
-reuse its `source_id`.
+Report the memories saved or proposed, with numbers, audience and sources, and
+the gaps and ambiguities. For confirmation, see
+[direction](memory-operations.md#direction).
 
-### Capture and make the interpretation reviewable
-
-Follow the user's requested save/review sequence. A request to save supports
-capture of sufficiently clear content as unconfirmed memories; a request to
-inspect proposals first leaves them unsaved. Clarify consequential ambiguity
-before capturing the affected claim. Neither sequence grants automatic
-confirmation. Record an unresolved question as a memory tagged `gap`.
-
-Search for related memories before a write, and read the nearest memories after
-it. When a subject already has a memory, update it; follow
-[subjects and overlap](memory-operations.md#subjects-and-overlap) when two
-memories cover one subject. Source upload alone does not authorize retiring
-unrelated knowledge or changing its audience.
-
-Give the manager a concise account of the resulting interpretation: the
-memories saved or proposed with their numbers, audience and sources, and
-material gaps or ambiguities. Use
-[direction and maintenance](memory-operations.md#direction-and-maintenance) if
-the manager directs confirmation of stored versions. Approval of the source
-document does not by itself approve the agent's exact stored interpretation.
-
-After substantial intake, offer a brief scenario trial when it would help the
-manager assess future use. Explain what it could show; a trial is optional.
-If the user wants to proceed, read [Help the manager try the result](#help-the-manager-try-the-result).
+After a large intake, offer a scenario trial. If the manager accepts, read
+[Try the result](#try-the-result).
 
 ## Apply guidance to a situation
 
-Search from the problem, relevant roles, and circumstances rather than requiring
-an SOP title. Also search for the procedure or rule that governs the situation
-by name: a search from the situation alone can rank that procedure low. Check the triggering conditions and relevant exceptions before
-applying a retrieved rule. Ask for missing task facts only when they affect the
-decision. Read the memory body, and the complete source text when needed, for
-ordered procedures or qualifications that a search hit alone cannot establish.
+Search from the problem, the roles and the circumstances; the user need not
+know the SOP title. Check the trigger conditions and the exceptions before you
+apply a rule. Ask for missing facts only when they change the decision. Read
+the body, and the complete source when needed, for ordered steps and
+qualifications.
 
-Explain the practical consequence for this task and provide supporting sources.
-Preserve unresolved conflicts instead of choosing a rule solely because its
-wording matches or its memory is confirmed. When missing company knowledge
-blocks progress, use [capability discovery](capability-discovery.md) to find a
-useful contributor or propose a question.
+Explain the practical result for this task, with sources. When two rules
+conflict, show the conflict; do not choose a rule because its wording matches or
+it is confirmed. When missing knowledge blocks progress, use
+[capability discovery](capability-discovery.md).
 
-## Help the manager try the result
+## Try the result
 
-For a requested trial, propose realistic situations in which this guidance
-should help, including a relevant exception. A fresh agent should
-receive the situation without an SOP title, known tag, memory ID, or instruction
-to search memory. Use a fresh session only through an available and authorized
-host mechanism; otherwise provide the scenario for the user to try.
+Propose realistic situations where the guidance should help, including one
+exception. Give a fresh agent the situation without an SOP title, tag, memory
+number or instruction to search memory. Start that session only through an
+authorized host mechanism; otherwise give the scenario to the user to try.
 
-Inspect what the agent found and how it applied it. Report missed guidance,
-lost qualifications, and unresolved coverage. A successful write or a count of
-stored memories establishes capture, not dependable future use.
+Report what the agent found and applied, the guidance it missed, the
+qualifications it lost and the coverage that stays open. A successful write
+shows capture, not future use.
