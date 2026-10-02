@@ -6,4 +6,6 @@ Plugin marketplace for KnowHow Memory.
   `https://memory.knowhow.app/mcp`.
 - `knowhow-memory-admin`: the administration skill for Organization admins.
 
-The skills are published from `skills/` in `knowhow-memory`. Do not edit them here.
+The skills in `plugins/*/skills/` are published from `skills/` in
+`knowhow-memory` with `just plugins-publish`. Do not edit them here. Edit them
+in `knowhow-memory`.

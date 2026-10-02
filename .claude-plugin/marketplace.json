@@ -8,14 +8,10 @@
   "plugins": [
     {
       "name": "knowhow-memory",
-      "displayName": "KnowHow Memory",
-      "description": "Use company knowledge from KnowHow Memory: recall, capture, objective continuity and contributor discovery. (sync test 2)",
       "source": "./plugins/knowhow-memory"
     },
     {
       "name": "knowhow-memory-admin",
-      "displayName": "KnowHow Memory Admin",
-      "description": "KnowHow Memory directory and visibility-group administration for Organization admins.",
       "source": "./plugins/knowhow-memory-admin"
     }
   ]
