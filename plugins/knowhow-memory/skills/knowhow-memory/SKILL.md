@@ -1,6 +1,6 @@
 ---
 name: knowhow-memory
-description: Use before you answer or act when this company's decisions, procedures, facts, people or ongoing work could matter, even when nobody mentions them. Recalls and saves knowledge in KnowHow Memory.
+description: Use before you answer or act when this company's decisions, procedures, schedules, people or ongoing work could matter, even in a general question. Recalls and saves knowledge in KnowHow Memory.
 ---
 
 # KnowHow Memory
