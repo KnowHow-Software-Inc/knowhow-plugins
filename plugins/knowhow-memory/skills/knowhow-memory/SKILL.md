@@ -46,7 +46,7 @@ a decision and its reason, a fix, a way to do a task, or a correction.
    claim, such as "SvelteKit only: …".
 5. File the memory (job 3). If it is a part of a guide, link it (job 4).
 6. Set an owner only when someone names one. If the content could be private
-   to a group, ask who should see it.
+   to a group, ask who should see it. `show_access` lists your groups.
 
 **Why:** a teammate, or their agent, can use the work without asking you.
 
@@ -90,6 +90,17 @@ text.
 
 **Why:** a guide with linked parts keeps each subject easy to find and update.
 
+## Account and access
+
+- When the person asks which KnowHow account is connected, or after a
+  connection is set up, call `show_access`. Report the email, Organization,
+  role and groups.
+- A `not_permitted` result names the access that the request needs. State
+  that access, the account and the role. If the person expected another
+  account, tell them to open **Connect an agent** in the KnowHow web app.
+- An Organization admin changes people, roles and visibility groups in the
+  KnowHow web app.
+
 ## Always
 
 - Explain what you did in plain words. Name memories by number and title.
@@ -101,6 +112,4 @@ text.
 ## Other work
 
 Read [Other tasks](references/other-tasks.md) to turn a document into
-memories, find who knows something, or pick up ongoing work. For changes to
-people or visibility groups, use the `knowhow-memory-admin` skill, if it is
-installed.
+memories, find who knows something, or pick up ongoing work.
