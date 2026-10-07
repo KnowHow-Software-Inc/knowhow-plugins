@@ -9,10 +9,6 @@
     {
       "name": "knowhow-memory",
       "source": "./plugins/knowhow-memory"
-    },
-    {
-      "name": "knowhow-memory-admin",
-      "source": "./plugins/knowhow-memory-admin"
     }
   ]
 }
