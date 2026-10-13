@@ -25,8 +25,8 @@ know something about it. This includes questions that look general.
 4. Read the memories that could apply, and check their conditions. A memory
    about another product can still help. A decision for this product can rule
    a memory out; then do not use it, and say why.
-5. Cite each memory that you use (#12), and say if it is unconfirmed or only
-   a proposal. Say when memories disagree, and what they do not cover.
+5. Cite each memory that you use (#12), and say if it is only a proposal.
+   Say when memories disagree, and what they do not cover.
 
 **Why:** earlier decisions prevent repeated work and wrong choices.
 
@@ -85,8 +85,7 @@ or someone asks if a guide is still correct.
 
 When asked whether a guide still applies, read its current parts and use
 version history when needed. Explain what the content supports. Update the
-guide when the person agrees. Confirm only when the person approves its own
-text.
+guide when the person agrees.
 
 **Why:** a guide with linked parts keeps each subject easy to find and update.
 
