@@ -1,6 +1,6 @@
 # Other tasks
 
-These tasks use the four jobs in `SKILL.md`. The steps add only what is
+These tasks use the five jobs in `SKILL.md`. The steps add only what is
 different.
 
 ## Turn a document into memories

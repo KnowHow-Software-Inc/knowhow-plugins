@@ -7,7 +7,7 @@ description: Use before you answer, plan or write code when this company's decis
 
 KnowHow Memory holds the company's decisions, fixes and ways of working.
 Each memory has a number, such as #12. The tool descriptions give the field
-details, and an error result says what to fix. You have four jobs.
+details, and an error result says what to fix. You have five jobs.
 
 ## 1. Check before you act
 
@@ -88,6 +88,37 @@ version history when needed. Explain what the content supports. Update the
 guide when the person agrees.
 
 **Why:** a guide with linked parts keeps each subject easy to find and update.
+
+## 5. Track work and what it depends on
+
+**When:** the work produces a commitment, a deliverable, an access request or
+other work that people promise and wait for, or someone asks what blocks an
+item.
+
+1. Give each work item one role tag: `deliverable`, `commitment`, `access`,
+   `decision`, `question`, `obligation`, `event` or `risk`.
+2. Set `state` only for work: `open`, `done` or `dropped`. Knowledge has no
+   state. Never write "blocked" as a state: reads compute it from the open
+   items that the memory depends on. Parts never block their parent.
+3. Set `due` when someone promises a date. When the promise or its date
+   changes, write a new version that cites the message that changed it.
+4. File the item `about` the other party, such as the client company or the
+   person who grants access. The other party has no field of its own.
+5. Record `depends_on` when the item needs another item done first, or when
+   its claim rests on another memory. Pin the dependency to its current
+   version when the claim rests on that memory's claim. A read then shows
+   `basis_changed` when that memory gets a new version. When a parent must
+   wait for one of its parts, record `depends_on` from the parent to that
+   part.
+6. Record `qualifies` when the memory is a condition, an exception or a
+   contract term that changes when or how another memory applies.
+7. To answer "what blocks this?", read the item and use `open_blockers`. Give
+   the chain and the evidence for each blocker.
+8. Memory keeps the work, its evidence and its changes. Run tasks, plans and
+   reminders in the tools that do them, such as the team's issue tracker.
+
+**Why:** the next reader sees what was promised, what is done and what
+blocks the work, without the original messages.
 
 ## Account and access
 
