@@ -63,6 +63,10 @@ filed wrongly or also applies to something else.
    `define_entities` only after the person agrees.
 3. When a memory also applies to another entry, add that entry. Send the
    full list, because `about` replaces the earlier list.
+4. When someone says that an entry has the wrong kind or the wrong entry
+   above it, propose a change of that entry's `kind` or `parent` with
+   `define_entities`. The change needs an Organization admin. Do not add a
+   new entry and refile the memories.
 
 **Why:** people find everything about a product or customer in one search,
 and agents skip what belongs elsewhere. A filing change makes no new
