@@ -24,7 +24,9 @@ know something about it. This includes questions that look general.
    again with `about` set to it.
 4. Read the memories that could apply, and check their conditions. A memory
    about another product can still help. A decision for this product can rule
-   a memory out; then do not use it, and say why.
+   a memory out; then do not use it, and say why. When you must check the
+   source of a claim, read the memory with `include` `["citations"]` to get
+   the source excerpts.
 5. Cite each memory that you use (#12), and say if it is only a proposal.
    Say when memories disagree, and what they do not cover.
 
@@ -87,8 +89,8 @@ or someone asks if a guide is still correct.
 3. Do not write a list of parts, or text such as "Part of #11", in any body.
    The guide shows its parts when someone reads it.
 
-When asked whether a guide still applies, read its current parts and use
-version history when needed. Explain what the content supports. Update the
+When asked whether a guide still applies, read its current parts. Read the
+guide with `include` `["history"]` when you need its version history. Explain what the content supports. Update the
 guide when the person agrees.
 
 **Why:** a guide with linked parts keeps each subject easy to find and update.
