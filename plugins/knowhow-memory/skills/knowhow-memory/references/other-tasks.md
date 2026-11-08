@@ -11,8 +11,7 @@ different.
    order. Name each memory by its situation, such as "Customer refund
    approval".
 3. Ask only about unclear points that change what someone would do.
-4. Follow the order that the person asked for. "Save it" means save. "Show me
-   first" means propose, and wait.
+4. "Save it" means save. "Show me first" means propose, and wait.
 5. Report the memories saved, the open questions, and what you left out.
    After a large document, offer to try a real situation with a fresh agent.
 
@@ -20,10 +19,10 @@ different.
 
 1. Use `find_people` with a specific question. Read the memories that connect
    each person to it.
-2. Tell the person who could help, and why: what each one wrote or did. That
-   does not make someone the owner or the person who decides.
-3. Ask before you contact anyone. After approval, send with a messaging tool,
-   or give a draft. Send only what the recipient is allowed to see.
+2. Say who could help, and why: what each one wrote or did. That does not
+   make someone the owner or the person who decides.
+3. After the person approves, send with a messaging tool, or give a draft.
+   Send only what the recipient is allowed to see.
 4. If nobody knows yet, offer to save the question with the tag `gap`. When
    someone answers, update that memory, remove the tag, and set the person
    who answered as `supplier`.
@@ -31,7 +30,6 @@ different.
 ## Pick up ongoing work
 
 Check before you act, with the objective's entry. At a decision, milestone,
-blocker or handoff, save a checkpoint, filed under the objective. Keep one
-memory with the current position, and update it. Write each date as a
-calendar date, such as "The first trial failed on 2 October". Replace the
-position; do not append a history.
+blocker or handoff, save the current position in one checkpoint memory, filed
+under the objective, and update that memory each time. Write each date as a
+calendar date, such as "The first trial failed on 2 October".
