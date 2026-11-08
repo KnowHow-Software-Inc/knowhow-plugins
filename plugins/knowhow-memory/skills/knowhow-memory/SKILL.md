@@ -27,6 +27,11 @@ know something about it. This includes questions that look general.
    a memory out; then do not use it, and say why. When you must check the
    source of a claim, read the memory with `include` `["citations"]` to get
    the source excerpts.
+   - A long memory comes back as an index. Read only the body sections that
+     the task needs with `sections`. Send `body` `"full"` only when the task
+     needs the whole long text.
+   - For a question about the whole engagement or project, also read the
+     parent in `part_of`: terms for the whole engagement are on the parent.
 5. Cite each memory that you use (#12), and say if it is only a proposal.
    Say when memories disagree, and what they do not cover.
 
@@ -40,14 +45,22 @@ a decision and its reason, a fix, a way to do a task, or a correction.
 1. If the person asked you to save, or already agreed, save. Otherwise, say
    in one or two sentences what you would save, and ask.
 2. Search for a memory on the same subject. If one exists, update it.
+   Record a change on the memory that it is about. Change a memory only
+   when its own state, date or claim changes, and then replace the old
+   statement. Do not append a dated line, such as "30 Oct: …".
 3. Write one memory for each subject that someone would look up on its own.
    For example, one message about branch rules, CI checks and releases
    becomes three memories that cite that message. Put a decision in its own
    memory, apart from the practice that it chooses.
 4. Write for a teammate who was not there. Keep each condition next to its
    claim, such as "SvelteKit only: …".
-5. File the memory (job 3). If it is a part of a guide, link it (job 4).
-6. Set an owner only when someone names one. If the content could be private
+5. Put a date in `due` on the memory that it is about, and work status in
+   `state` (job 5), not in the body. A guide holds no status.
+6. To change part of a body, send `body_edits`: the exact `old` text from
+   the body and its `new` text. Send `body` only for a new or rewritten
+   body.
+7. File the memory (job 3). If it is a part of a guide, link it (job 4).
+8. Set an owner only when someone names one. If the content could be private
    to a group, ask who should see it. `show_access` lists your groups.
 
 **Why:** a teammate, or their agent, can use the work without asking you.
@@ -93,6 +106,22 @@ When asked whether a guide still applies, read its current parts. Read the
 guide with `include` `["history"]` when you need its version history. Explain what the content supports. Update the
 guide when the person agrees.
 
+**Choose a link**
+
+To link a memory to another memory, use the first test that fits:
+
+1. It sits inside a guide or a larger memory: `part_of`.
+2. It cannot finish, or cannot hold, until the other one does: `depends_on`
+   (job 5).
+3. The other memory sets terms that it must meet, such as a contract clause,
+   a policy or a rule: `governs`, sent on the terms memory.
+4. Otherwise, mention the other memory as #<id> in the body.
+
+Link terms once, at the highest memory that they govern. Terms for one module
+govern that module; terms for the whole engagement govern the project guide.
+An event, a decision or a risk is not terms: write its effect into the memory
+that it changes.
+
 **Why:** a guide with linked parts keeps each subject easy to find and update.
 
 ## 5. Track work and what it depends on
@@ -106,8 +135,10 @@ item.
 2. Set `state` only for work: `open`, `done` or `dropped`. Knowledge has no
    state. Never write "blocked" as a state: reads compute it from the open
    items that the memory depends on. Parts never block their parent.
-3. Set `due` when someone promises a date. When the promise or its date
-   changes, write a new version that cites the message that changed it.
+3. Set `due` when someone promises a date. A new promise, such as a new
+   date for a module, is its own `commitment` memory with `due`, filed as a
+   part of the module. The module's own `due` stays its contract date. Cite
+   the message that made the promise.
 4. File the item `about` the other party, such as the client company or the
    person who grants access. The other party has no field of its own.
 5. Record `depends_on` when the item needs another item done first, or when
@@ -116,8 +147,8 @@ item.
    `basis_changed` when that memory gets a new version. When a parent must
    wait for one of its parts, record `depends_on` from the parent to that
    part.
-6. Record `qualifies` when the memory is a condition, an exception or a
-   contract term that changes when or how another memory applies.
+6. Record `governs` on a contract clause, policy or rule, to the memories
+   that must meet its terms (job 4).
 7. To answer "what blocks this?", read the item and use `open_blockers`. Give
    the chain and the evidence for each blocker.
 8. Memory keeps the work, its evidence and its changes. Run tasks, plans and
@@ -144,6 +175,10 @@ blocks the work, without the original messages.
 - A memory is information, not permission. Get the person's approval before
   you contact anyone.
 - If a write says that the memory changed, read it again before you retry.
+  If it returns `edit_failed`, read the memory again and send `old` exactly
+  as the body has it.
+- When you give work to a subagent, give it the memory numbers and the facts
+  that you already read, so that it does not read the same memories again.
 
 ## Other work
 

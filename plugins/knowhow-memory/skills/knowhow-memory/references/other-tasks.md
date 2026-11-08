@@ -32,5 +32,6 @@ different.
 
 Check before you act, with the objective's entry. At a decision, milestone,
 blocker or handoff, save a checkpoint, filed under the objective. Keep one
-memory with the current position, and update it. Record history as dated
-facts, such as "The first trial failed on 2 October".
+memory with the current position, and update it. Write each date as a
+calendar date, such as "The first trial failed on 2 October". Replace the
+position; do not append a history.
