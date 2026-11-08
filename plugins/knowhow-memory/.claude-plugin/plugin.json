@@ -6,5 +6,6 @@
     "name": "KnowHow Software Inc",
     "url": "https://knowhow.app"
   },
-  "homepage": "https://memory.knowhow.app/"
+  "homepage": "https://memory.knowhow.app/",
+  "version": "1.0.0"
 }
