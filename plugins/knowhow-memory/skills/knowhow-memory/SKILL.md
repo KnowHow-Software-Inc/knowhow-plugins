@@ -59,8 +59,12 @@ a decision and its reason, a fix, a way to do a task, or a correction.
 6. To change part of a body, send `body_edits`: the exact `old` text from
    the body and its `new` text. Send `body` only for a new or rewritten
    body.
-7. File the memory (job 3). If it is a part of a guide, link it (job 4).
-8. Set an owner only when someone names one. If the content could be private
+7. When a source is wrong, has moved, or no longer supports the body, remove
+   it with `remove_sources` in the write that changes the memory, and cite
+   the replacement in the same write. Read the memory with `include`
+   `["citations"]` when you need the excerpts to decide.
+8. File the memory (job 3). If it is a part of a guide, link it (job 4).
+9. Set an owner only when someone names one. If the content could be private
    to a group, ask who should see it. `show_access` lists your groups.
 
 **Why:** a teammate, or their agent, can use the work without asking you.
@@ -82,6 +86,8 @@ filed wrongly or also applies to something else.
    above it, propose a change of that entry's `kind` or `parent` with
    `define_entities`. The change needs an Organization admin. Do not add a
    new entry and refile the memories.
+5. When an entry's description is stale or an alias is wrong, propose the
+   change with `define_entities`. The change needs an Organization admin.
 
 **Why:** people find everything about a product or customer in one search,
 and agents skip what belongs elsewhere. A filing change makes no new
