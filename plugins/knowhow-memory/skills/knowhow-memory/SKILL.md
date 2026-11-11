@@ -121,6 +121,12 @@ item.
    chain with the evidence for each blocker.
 7. Run tasks, plans and reminders in the tools that do them, such as the
    team's issue tracker. Memory keeps the work, its evidence and its changes.
+8. In a read, `work_status` gives one status for work: `done` or `dropped`;
+   `overdue` for an open item past its due date; `waiting` for an open item
+   that is blocked or has a party; `todo` for the other open items.
+   `who_acts` lists who acts next: the party, or else the owner, of each open
+   item at the end of its blockers, or of the item itself when nothing blocks
+   it. `nobody` means that no one is named.
 
 ## Account and access
 
