@@ -1,0 +1,18 @@
+{
+  "name": "knowhow-memory",
+  "displayName": "KnowHow Memory",
+  "version": "1.0.5",
+  "description": "Use company knowledge from KnowHow Memory: recall, capture, objective continuity and contributor discovery.",
+  "author": {
+    "name": "KnowHow Software Inc",
+    "url": "https://knowhow.app"
+  },
+  "homepage": "https://memory.knowhow.app/",
+  "repository": "https://github.com/KnowHow-Software-Inc/knowhow-plugins",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Check my KnowHow Memory connection and report my account, organization, role, and visibility groups",
+    "Search KnowHow Memory for decisions or guides relevant to my current task",
+    "Help me capture a useful company practice in KnowHow Memory and draft it for my review"
+  ]
+}
